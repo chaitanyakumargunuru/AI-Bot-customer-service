@@ -34,7 +34,7 @@ with st.sidebar:
     json_path = st.text_input("Google STT JSON Path", value="speech_totext.json")
 
     # CHANGED: Groq API Key Input
-    groq_api_key = st.text_input("Groq API Key", type="password",value="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")
+    groq_api_key = st.text_input("Groq API Key", type="password",value="")
 
     ollama_model = st.selectbox("Ollama Model", ["qwen2.5:1.5b", "llama3.2"], index=0)
 
